@@ -23,10 +23,10 @@ namespace Laba1
             double result = 0;
             for (int i = 0; i < n+1; i++)
             {
-                result += Math.Pow(x, 2*n+1); // / (2 * n + 1);
+                result += Math.Pow(x, 2*n+1) / (2 * n + 1);
             }
-            Console.WriteLine(result);
-            //Console.WriteLine(result * 2);
+            
+            Console.WriteLine(result * 2);
         }
     }
 }
